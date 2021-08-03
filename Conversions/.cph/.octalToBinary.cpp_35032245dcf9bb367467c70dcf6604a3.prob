@@ -1,0 +1,1 @@
+{"name":"Local: octalToBinary","url":"g:\\DSA-C++\\Conversions\\octalToBinary.cpp","tests":[{"id":1627920633257,"input":"137","output":"95"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"g:\\DSA-C++\\Conversions\\octalToBinary.cpp","group":"local","local":true}

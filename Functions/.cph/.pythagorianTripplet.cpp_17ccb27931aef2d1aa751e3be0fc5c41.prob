@@ -1,0 +1,1 @@
+{"name":"Local: pythagorianTripplet","url":"g:\\DSA-C++\\Functions\\pythagorianTripplet.cpp","tests":[{"id":1627918448548,"input":"3 4 5","output":"1"},{"id":1627918624007,"input":"","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"g:\\DSA-C++\\Functions\\pythagorianTripplet.cpp","group":"local","local":true}
