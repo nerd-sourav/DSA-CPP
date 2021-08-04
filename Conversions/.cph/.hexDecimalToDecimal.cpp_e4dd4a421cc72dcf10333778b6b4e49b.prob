@@ -1,0 +1,1 @@
+{"name":"Local: hexDecimalToDecimal","url":"g:\\DSA-C++\\Conversions\\hexDecimalToDecimal.cpp","tests":[{"id":1628003558540,"input":"1CF","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"g:\\DSA-C++\\Conversions\\hexDecimalToDecimal.cpp","group":"local","local":true}
