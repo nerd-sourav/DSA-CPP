@@ -1,0 +1,1 @@
+{"name":"Local: b","url":"g:\\DSA-C++\\Arrays\\b.cpp","tests":[{"id":1628351383180,"input":"5\n3 4 5 8 9\n5","output":"2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"g:\\DSA-C++\\Arrays\\b.cpp","group":"local","local":true}
