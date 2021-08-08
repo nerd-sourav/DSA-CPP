@@ -11,23 +11,26 @@ int main()
     {
         cin >> arr[i];
     }
-
+    int pd = arr[1] - arr[0];
     int ans = 2;
-    int diff = 0;
-    int count = 0;
+    int current = 2;
+    int i = 2;
+    while (i < n)
 
-    for (int i = 0; i < n; i++)
     {
-
-        diff = arr[i + 1] + arr[i];
-        for (int j = 2; j < n; i = j++)
+        if (pd == arr[i] - arr[i - 1])
         {
-            if (arr[j - 1] - arr[j] == diff)
-            {
-                ans++;
-            }
+            current++;
         }
+        else
+        {
+            pd = arr[i] - arr[i - 1];
+            current = 2;
+        }
+        ans = max(current, ans);
+        i++;
     }
+    cout << ans << endl;
 
     return 0;
 }
