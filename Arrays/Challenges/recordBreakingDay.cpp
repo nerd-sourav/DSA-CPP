@@ -1,26 +1,32 @@
-#include <iostream>
-#include <cmath>
+#include "bits/stdc++.h"
 using namespace std;
 
 int main()
 {
     int n;
     cin >> n;
-    int arr[n];
+    int arr[n + 1];
+    arr[n] = -1;
     for (int i = 0; i < n; i++)
     {
         cin >> arr[i];
     }
-
-    int count = 0;
-    int mx = 0;
+    if (n == 1)
+    {
+        cout << "1" << endl;
+        return 0;
+    }
+    int mx = -1;
+    int ans = 0;
     for (int i = 0; i < n; i++)
     {
-        for (int j = 0; i < i; i++)
+        if (arr[i] > mx and arr[i] > arr[i + 1])
         {
-            mx = max(arr[j], )
+            ans++;
         }
+        mx = max(ans, mx);
     }
+    cout << ans << endl;
 
     return 0;
 }
