@@ -1,0 +1,1 @@
+{"name":"Local: firstRepeatingElement","url":"g:\\DSA-C++\\Arrays\\Challenges\\firstRepeatingElement.cpp","tests":[{"id":1628666925103,"input":"7\n5 5 3 4 3 5 6","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"g:\\DSA-C++\\Arrays\\Challenges\\firstRepeatingElement.cpp","group":"local","local":true}
