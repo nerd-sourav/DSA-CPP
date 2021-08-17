@@ -11,18 +11,19 @@ int main()
     {
         cin >> arr[i];
     }
-    int st = 0;
+    int maxSum = INT_MIN;
     for (int i = 0; i < n; i++)
     {
         for (int j = i; j < n; j++)
         {
+            int summ = 0;
             for (int k = i; k <= j; k++)
             {
-                cout << arr[k];
+                summ += arr[k];
             }
-            cout << endl;
+            maxSum = max(maxSum, summ);
         }
     }
-
+    cout << maxSum;
     return 0;
 }
