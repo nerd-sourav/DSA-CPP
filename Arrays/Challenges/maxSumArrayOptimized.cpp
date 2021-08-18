@@ -11,14 +11,10 @@ int main()
     {
         cin >> arr[i];
     }
-    int cumArr[n];
-    for (int i = 0; i < n; i++)
+    int cumSumArray[n + 1];
+    cumSumArray[0] = 0;
+    int for (int i = 0; i < n; i++)
     {
-        cumArr[i] = cumArr[i] + arr[i];
-    }
-    for (int i = 0; i < n; i++)
-    {
-        cout << cumArr[i] << " ";
     }
 
     return 0;
