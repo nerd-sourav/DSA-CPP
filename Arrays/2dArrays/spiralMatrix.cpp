@@ -27,27 +27,25 @@ int main()
 
             cout << arr[row_start][i] << " ";
         }
-
-        for (int i = row_start + 1; i < row_end; i++)
+        row_start++;
+        +for (int i = row_start; i <= row_end; i++)
         {
 
             cout << arr[i][col_end] << " ";
         }
+        col_end--;
         for (int i = col_end; i >= col_start; i--)
         {
 
             cout << arr[row_end][i] << " ";
         }
-        for (int i = row_end - 1; i >= row_start; i--)
+        row_end--;
+        for (int i = row_end; i >= row_start; i--)
         {
 
             cout << arr[i][col_start] << " ";
         }
-
-        row_start++;
         col_start++;
-        row_end--;
-        col_end--;
     }
     return 0;
 }
