@@ -15,12 +15,35 @@ int main()
                         {4, 5, 6}};
 
     int ans[n1][n3];
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < n1; i++)
     {
-        int currentSum = 0;
-        for (int j = 0; j < n; j++)
+
+        for (int j = 0; j < n3; j++)
         {
+            ans[i][j] = 0;
         }
+    }
+
+    for (int i = 0; i < n1; i++)
+    {
+
+        for (int j = 0; j < n3; j++)
+        {
+            for (int k = 0; k < n2; k++)
+                ans[i][j] += arr1[i][k] * arr2[k][j];
+
+            cout << endl;
+        }
+    }
+    for (int i = 0; i < n1; i++)
+    {
+
+        for (int j = 0; j < n3; j++)
+        {
+            cout << ans[i][j] << " ";
+        }
+
+        cout << endl;
     }
 
     return 0;
